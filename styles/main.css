@@ -1,0 +1,43 @@
+h1 {
+    color: rgb(0, 112, 112);
+    text-align: center;
+    background-color: rgb(158, 246, 217);
+}
+
+.content__fish-list{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      border-style: solid;
+      border-color: blue;
+      border-width: 3px;
+}
+img{
+    border-radius: 15%;
+    max-width: 10%;
+  height: auto;
+}
+.content__quote-list{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      border-style: solid;
+      border-color: blue;
+      border-width: 3px;
+}
+.content__location-list{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      border-style: solid;
+      border-color: blue;
+      border-width: 3px;
+}
+.Martips{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      border-style: solid;
+      border-color: blue;
+      border-width: 3px;
+}
