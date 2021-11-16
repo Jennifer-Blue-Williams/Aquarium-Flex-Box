@@ -3,41 +3,71 @@ h1 {
     text-align: center;
     background-color: rgb(158, 246, 217);
 }
+main{
+    display: flex;
+}
 
+/* .content{
+    text-align: left;
+} */
 .content__fish-list{
     display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
       border-style: solid;
       border-color: blue;
       border-width: 3px;
+      background-color: rgb(191, 229, 241);
 }
+.Fishcard{
+   
+      border-style: solid;
+      border-color: blue;
+      border-width: 3px;
+      background-color: rgb(191, 229, 241);
+}
+
 img{
     border-radius: 15%;
-    max-width: 10%;
+    width: 100%;
   height: auto;
 }
+
 .content__quote-list{
-    display: flex;
-      flex-wrap: wrap;
+     display: flex; 
+      flex-wrap: wrap; 
       justify-content: space-around;
+      background-color: rgb(55, 245, 245);
       border-style: solid;
       border-color: blue;
       border-width: 3px;
 }
+
 .content__location-list{
+     display: flex;
+      /* flex-wrap: wrap; */
+      justify-content: space-around;
+      border-style: solid;
+      border-color: blue;
+      border-width: 3px;
+      background-color: rgb(191, 229, 241);
+}
+
+.harv-loc{
+    border-style: solid;
+      border-color: blue;
+      border-width: 3px;
+      background-color: rgb(191, 229, 241);
+}
+
+.content__Martips{
+    text-align:right;
     display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
+      background-color: rgb(158, 246, 217);
       border-style: solid;
       border-color: blue;
       border-width: 3px;
 }
-.Martips{
-    display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      border-style: solid;
-      border-color: blue;
-      border-width: 3px;
+.article {
+     display: flex; 
 }
